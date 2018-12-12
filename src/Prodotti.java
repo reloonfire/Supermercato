@@ -10,5 +10,14 @@ public abstract class Prodotti {
 		this.descrizione = descrizione;
 		this.prezzoUnitario = prezzoUnitario;
 	}
+
+	public float getPrezzoUnitario() {
+		return prezzoUnitario;
+	}
+
+	public String getDescrizione() {
+		return descrizione;
+	}
 	
+	public abstract void applicaSconto();
 }
